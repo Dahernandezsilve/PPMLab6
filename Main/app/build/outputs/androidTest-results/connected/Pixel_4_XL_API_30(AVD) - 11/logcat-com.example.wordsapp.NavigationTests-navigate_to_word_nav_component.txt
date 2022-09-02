@@ -1,0 +1,125 @@
+09-02 18:45:04.380 12068 12091 I TestRunner: started: navigate_to_word_nav_component(com.example.wordsapp.NavigationTests)
+09-02 18:45:04.676 12068 12091 W Settings: Setting always_finish_activities has moved from android.provider.Settings.System to android.provider.Settings.Global, returning read-only value.
+09-02 18:45:04.731   535   557 D EventSequenceValidator: Transition from ACTIVITY_FINISHED to INTENT_STARTED
+09-02 18:45:04.777   392   392 I perfetto: ing_service_impl.cc:758 Configured tracing session 121, #sources:1, duration:5000 ms, #buffers:1, total buffer size:4096 KB, total sessions:1, uid:1071 session name: ""
+09-02 18:45:04.810 11459 11459 I perfetto: probes_producer.cc:230  Ftrace setup (target_buf=121)
+09-02 18:45:04.842   535   557 D EventSequenceValidator: Transition from INTENT_STARTED to ACTIVITY_LAUNCHED
+09-02 18:45:04.861   535  3236 W InputReader: Device virtio_input_multi_touch_9 is associated with display ADISPLAY_ID_NONE.
+09-02 18:45:04.861   535  3236 W InputReader: Device virtio_input_multi_touch_7 is associated with display ADISPLAY_ID_NONE.
+09-02 18:45:04.861   535  3236 W InputReader: Device virtio_input_multi_touch_10 is associated with display ADISPLAY_ID_NONE.
+09-02 18:45:04.862   535  3236 W InputReader: Device virtio_input_multi_touch_4 is associated with display ADISPLAY_ID_NONE.
+09-02 18:45:04.862   535  3236 W InputReader: Device virtio_input_multi_touch_11 is associated with display ADISPLAY_ID_NONE.
+09-02 18:45:04.864   535  3236 W InputReader: Device virtio_input_multi_touch_6 is associated with display ADISPLAY_ID_NONE.
+09-02 18:45:04.864   535  3236 W InputReader: Device virtio_input_multi_touch_5 is associated with display ADISPLAY_ID_NONE.
+09-02 18:45:04.865   535  3236 W InputReader: Device virtio_input_multi_touch_3 is associated with display ADISPLAY_ID_NONE.
+09-02 18:45:04.865   535  3236 W InputReader: Device virtio_input_multi_touch_2 is associated with display ADISPLAY_ID_NONE.
+09-02 18:45:04.865   535  3236 W InputReader: Device virtio_input_multi_touch_8 is associated with display ADISPLAY_ID_NONE.
+09-02 18:45:04.865   535  3236 W InputReader: Device virtio_input_multi_touch_9 is associated with display ADISPLAY_ID_NONE.
+09-02 18:45:04.865   535  3236 W InputReader: Device virtio_input_multi_touch_7 is associated with display ADISPLAY_ID_NONE.
+09-02 18:45:04.865   535  3236 W InputReader: Device virtio_input_multi_touch_10 is associated with display ADISPLAY_ID_NONE.
+09-02 18:45:04.865   535  3236 W InputReader: Device virtio_input_multi_touch_4 is associated with display ADISPLAY_ID_NONE.
+09-02 18:45:04.866   535  3236 W InputReader: Device virtio_input_multi_touch_11 is associated with display ADISPLAY_ID_NONE.
+09-02 18:45:04.866   535  3236 W InputReader: Device virtio_input_multi_touch_6 is associated with display ADISPLAY_ID_NONE.
+09-02 18:45:04.866   535  3236 W InputReader: Device virtio_input_multi_touch_5 is associated with display ADISPLAY_ID_NONE.
+09-02 18:45:04.866   535  3236 W InputReader: Device virtio_input_multi_touch_3 is associated with display ADISPLAY_ID_NONE.
+09-02 18:45:04.866   535  3236 W InputReader: Device virtio_input_multi_touch_2 is associated with display ADISPLAY_ID_NONE.
+09-02 18:45:04.866   535  3236 W InputReader: Device virtio_input_multi_touch_8 is associated with display ADISPLAY_ID_NONE.
+09-02 18:45:04.963 11459 11459 I perfetto: ftrace_procfs.cc:176    enabled ftrace
+09-02 18:45:05.001   463   463 E netmgr  : qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:network' service: Invalid argument
+09-02 18:45:05.001   463   463 E netmgr  : Failed to open QEMU pipe 'qemud:network': Invalid argument
+09-02 18:45:05.075   302   302 D goldfish-address-space: claimShared: Ask to claim region [0x3ec000000 0x3ed0b3000]
+09-02 18:45:05.101 12068 12100 D libEGL  : loaded /vendor/lib/egl/libEGL_emulation.so
+09-02 18:45:05.105 12068 12100 D libEGL  : loaded /vendor/lib/egl/libGLESv1_CM_emulation.so
+09-02 18:45:05.114 12068 12068 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@cf3b09a in: PRE_ON_CREATE
+09-02 18:45:05.116 12068 12068 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.wordsapp/androidx.fragment.app.testing.FragmentScenario$EmptyFragmentActivity (has extras) }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.wordsapp/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity (has extras) }, activity=androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@cf3b09a
+09-02 18:45:05.121 12068 12100 D libEGL  : loaded /vendor/lib/egl/libGLESv2_emulation.so
+09-02 18:45:05.195 12068 12068 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@cf3b09a in: CREATED
+09-02 18:45:05.196 12068 12068 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.wordsapp/androidx.fragment.app.testing.FragmentScenario$EmptyFragmentActivity (has extras) }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.wordsapp/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity (has extras) }, activity=androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@cf3b09a
+09-02 18:45:05.248 12068 12068 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@cf3b09a in: STARTED
+09-02 18:45:05.248 12068 12068 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.wordsapp/androidx.fragment.app.testing.FragmentScenario$EmptyFragmentActivity (has extras) }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.wordsapp/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity (has extras) }, activity=androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@cf3b09a
+09-02 18:45:05.300 12068 12068 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@cf3b09a in: RESUMED
+09-02 18:45:05.302 12068 12068 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.wordsapp/androidx.fragment.app.testing.FragmentScenario$EmptyFragmentActivity (has extras) }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.wordsapp/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity (has extras) }, activity=androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@cf3b09a
+09-02 18:45:05.328 12068 12068 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@cf3b09a in: PAUSED
+09-02 18:45:05.329 12068 12068 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.wordsapp/androidx.fragment.app.testing.FragmentScenario$EmptyFragmentActivity (has extras) }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.wordsapp/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity (has extras) }, activity=androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@cf3b09a
+09-02 18:45:05.335   535  3236 W InputReader: Device virtio_input_multi_touch_9 is associated with display ADISPLAY_ID_NONE.
+09-02 18:45:05.336   535  3236 W InputReader: Device virtio_input_multi_touch_7 is associated with display ADISPLAY_ID_NONE.
+09-02 18:45:05.336   535  3236 W InputReader: Device virtio_input_multi_touch_10 is associated with display ADISPLAY_ID_NONE.
+09-02 18:45:05.336   535  3236 W InputReader: Device virtio_input_multi_touch_4 is associated with display ADISPLAY_ID_NONE.
+09-02 18:45:05.336   535  3236 W InputReader: Device virtio_input_multi_touch_11 is associated with display ADISPLAY_ID_NONE.
+09-02 18:45:05.336   535  3236 W InputReader: Device virtio_input_multi_touch_6 is associated with display ADISPLAY_ID_NONE.
+09-02 18:45:05.336   535  3236 W InputReader: Device virtio_input_multi_touch_5 is associated with display ADISPLAY_ID_NONE.
+09-02 18:45:05.336   535  3236 W InputReader: Device virtio_input_multi_touch_3 is associated with display ADISPLAY_ID_NONE.
+09-02 18:45:05.336   535  3236 W InputReader: Device virtio_input_multi_touch_2 is associated with display ADISPLAY_ID_NONE.
+09-02 18:45:05.336   535  3236 W InputReader: Device virtio_input_multi_touch_8 is associated with display ADISPLAY_ID_NONE.
+09-02 18:45:05.336   535  3236 W InputReader: Device virtio_input_multi_touch_9 is associated with display ADISPLAY_ID_NONE.
+09-02 18:45:05.336   535  3236 W InputReader: Device virtio_input_multi_touch_7 is associated with display ADISPLAY_ID_NONE.
+09-02 18:45:05.336   535  3236 W InputReader: Device virtio_input_multi_touch_10 is associated with display ADISPLAY_ID_NONE.
+09-02 18:45:05.336   535  3236 W InputReader: Device virtio_input_multi_touch_4 is associated with display ADISPLAY_ID_NONE.
+09-02 18:45:05.337   535  3236 W InputReader: Device virtio_input_multi_touch_11 is associated with display ADISPLAY_ID_NONE.
+09-02 18:45:05.337   535  3236 W InputReader: Device virtio_input_multi_touch_6 is associated with display ADISPLAY_ID_NONE.
+09-02 18:45:05.337   535  3236 W InputReader: Device virtio_input_multi_touch_5 is associated with display ADISPLAY_ID_NONE.
+09-02 18:45:05.337   535  3236 W InputReader: Device virtio_input_multi_touch_3 is associated with display ADISPLAY_ID_NONE.
+09-02 18:45:05.337   535  3236 W InputReader: Device virtio_input_multi_touch_2 is associated with display ADISPLAY_ID_NONE.
+09-02 18:45:05.337   535  3236 W InputReader: Device virtio_input_multi_touch_8 is associated with display ADISPLAY_ID_NONE.
+09-02 18:45:05.339   302   302 D goldfish-address-space: claimShared: Ask to claim region [0x3e8000000 0x3e90b3000]
+09-02 18:45:05.438 12068 12082 I xample.wordsap: Background young concurrent copying GC freed 38278(2162KB) AllocSpace objects, 1(20KB) LOS objects, 92% free, 2057KB/26MB, paused 11.042ms total 227.235ms
+09-02 18:45:05.553 12068 12068 D LifecycleMonitor: Lifecycle status change: androidx.fragment.app.testing.FragmentScenario$EmptyFragmentActivity@77c3dec in: PRE_ON_CREATE
+09-02 18:45:05.553 12068 12068 V ActivityScenario: Activity lifecycle changed event received but ignored because the reported transition was not ON_CREATE while the last known transition was PRE_ON_CREATE
+09-02 18:45:05.936 12068 12068 D LifecycleMonitor: Lifecycle status change: androidx.fragment.app.testing.FragmentScenario$EmptyFragmentActivity@77c3dec in: CREATED
+09-02 18:45:05.957 12068 12068 V ActivityScenario: Update currentActivityStage to CREATED, currentActivity=androidx.fragment.app.testing.FragmentScenario$EmptyFragmentActivity@77c3dec
+09-02 18:45:06.250 11972 11995 I droid.gallery3: Waiting for a blocking GC ProfileSaver
+09-02 18:45:06.362 11972 11995 I droid.gallery3: WaitForGcToComplete blocked ProfileSaver on ClassLinker for 111.981ms
+09-02 18:45:06.527   711   711 I Choreographer: Skipped 33 frames!  The application may be doing too much work on its main thread.
+09-02 18:45:06.846   535   557 W system_server: Long monitor contention with owner android.anim (558) at void com.android.server.wm.WindowAnimator.lambda$new$1$WindowAnimator(long)(WindowAnimator.java:111) waiters=1 in void com.android.server.wm.ActivityRecord$2.run() for 484ms
+09-02 18:45:06.847   535  1007 W system_server: Long monitor contention with owner android.anim (558) at void com.android.server.wm.WindowAnimator.lambda$new$1$WindowAnimator(long)(WindowAnimator.java:111) waiters=0 in void com.android.server.wm.ActivityTaskManagerService.reportSizeConfigurations(android.os.IBinder, int[], int[], int[]) for 600ms
+09-02 18:45:06.849   535   558 I Choreographer: Skipped 52 frames!  The application may be doing too much work on its main thread.
+09-02 18:45:06.856 12068 12068 D LifecycleMonitor: Lifecycle status change: androidx.fragment.app.testing.FragmentScenario$EmptyFragmentActivity@77c3dec in: STARTED
+09-02 18:45:06.856 12068 12068 V ActivityScenario: Update currentActivityStage to STARTED, currentActivity=androidx.fragment.app.testing.FragmentScenario$EmptyFragmentActivity@77c3dec
+09-02 18:45:06.857 12068 12068 D LifecycleMonitor: Lifecycle status change: androidx.fragment.app.testing.FragmentScenario$EmptyFragmentActivity@77c3dec in: RESUMED
+09-02 18:45:06.857 12068 12068 V ActivityScenario: Update currentActivityStage to RESUMED, currentActivity=androidx.fragment.app.testing.FragmentScenario$EmptyFragmentActivity@77c3dec
+09-02 18:45:07.198 12068 12098 D HostConnection: HostConnection::get() New Host Connection established 0xe79acc40, tid 12098
+09-02 18:45:07.213 12068 12098 D HostConnection: HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_native_sync_v3 ANDROID_EMU_native_sync_v4 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_vulkan ANDROID_EMU_deferred_vulkan_commands ANDROID_EMU_vulkan_null_optional_strings ANDROID_EMU_vulkan_create_resources_with_requirements ANDROID_EMU_YUV_Cache ANDROID_EMU_vulkan_ignored_handles ANDROID_EMU_has_shared_slots_host_memory_allocator ANDROID_EMU_vulkan_free_memory_sync ANDROID_EMU_vulkan_shader_float16_int8 ANDROID_EMU_vulkan_async_queue_submit ANDROID_EMU_sync_buffer_data ANDROID_EMU_read_color_buffer_dma GL_OES_EGL_image_external_essl3 GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_host_side_tracing ANDROID_EMU_gles_max_version_3_0
+09-02 18:45:07.230   173   173 I hwservicemanager: getTransport: Cannot find entry android.hardware.configstore@1.0::ISurfaceFlingerConfigs/default in either framework or device manifest.
+09-02 18:45:07.232 12068 12098 W OpenGLRenderer: Failed to choose config with EGL_SWAP_BEHAVIOR_PRESERVED, retrying without...
+09-02 18:45:07.245 12068 12098 D EGL_emulation: eglCreateContext: 0xe799ed90: maj 3 min 0 rcv 3
+09-02 18:45:07.432 12068 12098 D EGL_emulation: eglMakeCurrent: 0xe799ed90: ver 3 0 (tinfo 0xe7ce42f0) (first time)
+09-02 18:45:07.761   302   302 D goldfish-address-space: claimShared: Ask to claim region [0x3e90b3000 0x3ea166000]
+09-02 18:45:07.804   173   173 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device manifest.
+09-02 18:45:07.805 12068 12098 I Gralloc4: mapper 4.x is not supported
+09-02 18:45:07.805 12068 12098 D HostConnection: createUnique: call
+09-02 18:45:07.808 12068 12098 D HostConnection: HostConnection::get() New Host Connection established 0xe799fdc0, tid 12098
+09-02 18:45:07.808 12068 12098 D goldfish-address-space: allocate: Ask for block of size 0x100
+09-02 18:45:07.808 12068 12098 D goldfish-address-space: allocate: ioctl allocate returned offset 0x3e5ffc000 size 0x2000
+09-02 18:45:07.904 12068 12098 D HostConnection: HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_native_sync_v3 ANDROID_EMU_native_sync_v4 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_vulkan ANDROID_EMU_deferred_vulkan_commands ANDROID_EMU_vulkan_null_optional_strings ANDROID_EMU_vulkan_create_resources_with_requirements ANDROID_EMU_YUV_Cache ANDROID_EMU_vulkan_ignored_handles ANDROID_EMU_has_shared_slots_host_memory_allocator ANDROID_EMU_vulkan_free_memory_sync ANDROID_EMU_vulkan_shader_float16_int8 ANDROID_EMU_vulkan_async_queue_submit ANDROID_EMU_sync_buffer_data ANDROID_EMU_read_color_buffer_dma GL_OES_EGL_image_external_essl3 GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_host_side_tracing ANDROID_EMU_gles_max_version_3_0
+09-02 18:45:08.122   302   302 D goldfish-address-space: claimShared: Ask to claim region [0x3ea166000 0x3eb219000]
+09-02 18:45:08.133   302   302 D goldfish-address-space: claimShared: Ask to claim region [0x3ed0b3000 0x3ee166000]
+09-02 18:45:08.465 12068 12098 I OpenGLRenderer: Davey! duration=1431ms; Flags=1, IntendedVsync=37052090110258, Vsync=37052140110256, OldestInputEvent=9223372036854775807, NewestInputEvent=0, HandleInputStart=37052152183695, AnimationStart=37052152500595, PerformTraversalsStart=37052152566595, DrawStart=37053236914195, SyncQueued=37053315636495, SyncStart=37053363646295, IssueDrawCommandsStart=37053364369095, SwapBuffers=37053480374595, FrameCompleted=37053569227395, DequeueBufferDuration=3218700, QueueBufferDuration=5563800, GpuCompleted=72904372627112541,
+09-02 18:45:08.512   535   564 D ArtManagerInternalImpl: /data/misc/iorapd/com.example.wordsapp/1/androidx.fragment.app.testing.FragmentScenario$EmptyFragmentActivity/compiled_traces/compiled_trace.pb doesn't exist
+09-02 18:45:08.515   535   564 I ActivityTaskManager: Displayed com.example.wordsapp/androidx.fragment.app.testing.FragmentScenario$EmptyFragmentActivity: +3s779ms
+09-02 18:45:08.604   535   557 D EventSequenceValidator: Transition from ACTIVITY_LAUNCHED to ACTIVITY_FINISHED
+09-02 18:45:08.708 12068 12082 I xample.wordsap: WaitForGcToComplete blocked RunEmptyCheckpoint on ProfileSaver for 11.702ms
+09-02 18:45:09.580 12068 12068 W xample.wordsap: Verification of androidx.recyclerview.widget.OrientationHelper androidx.recyclerview.widget.OrientationHelper.createVerticalHelper(androidx.recyclerview.widget.RecyclerView$LayoutManager) took 136.242ms (44.04 bytecodes/s) (784B approximate peak alloc)
+09-02 18:45:09.783 12068 12068 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@cf3b09a in: STOPPED
+09-02 18:45:09.784 12068 12068 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.wordsapp/androidx.fragment.app.testing.FragmentScenario$EmptyFragmentActivity (has extras) }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.wordsapp/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity (has extras) }, activity=androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@cf3b09a
+09-02 18:45:09.830 12068 12068 I Choreographer: Skipped 66 frames!  The application may be doing too much work on its main thread.
+09-02 18:45:09.836 11459 11459 I perfetto: probes_producer.cc:329  Producer stop (id=121)
+09-02 18:45:09.868   392   392 I perfetto: ng_service_impl.cc:1948 Tracing session 121 ended, total sessions:0
+09-02 18:45:09.889 11459 11459 I perfetto: ftrace_procfs.cc:183    disabled ftrace
+09-02 18:45:10.670 12068 12068 I Choreographer: Skipped 32 frames!  The application may be doing too much work on its main thread.
+09-02 18:45:10.712 12068 12098 I OpenGLRenderer: Davey! duration=2004ms; Flags=1, IntendedVsync=37053810991729, Vsync=37054910991685, OldestInputEvent=9223372036854775807, NewestInputEvent=0, HandleInputStart=37054936209895, AnimationStart=37054936312295, PerformTraversalsStart=37054936564695, DrawStart=37055744490295, SyncQueued=37055763228195, SyncStart=37055764298495, IssueDrawCommandsStart=37055764525195, SwapBuffers=37055808612295, FrameCompleted=37055816439795, DequeueBufferDuration=572300, QueueBufferDuration=3195500, GpuCompleted=43984843964424,
+09-02 18:45:11.115 12068 12091 D InputManagerEventInjectionStrategy: Creating injection strategy with input manager.
+09-02 18:45:11.116 12068 12091 W xample.wordsap: Accessing hidden method Landroid/hardware/input/InputManager;->getInstance()Landroid/hardware/input/InputManager; (greylist, reflection, allowed)
+09-02 18:45:11.116 12068 12091 W xample.wordsap: Accessing hidden method Landroid/hardware/input/InputManager;->injectInputEvent(Landroid/view/InputEvent;I)Z (greylist, reflection, allowed)
+09-02 18:45:11.116 12068 12091 W xample.wordsap: Accessing hidden field Landroid/hardware/input/InputManager;->INJECT_INPUT_EVENT_MODE_WAIT_FOR_FINISH:I (greylist, reflection, allowed)
+09-02 18:45:11.144 12068 12091 W xample.wordsap: Accessing hidden method Landroid/view/ViewConfiguration;->getDoubleTapMinTime()I (greylist, reflection, allowed)
+09-02 18:45:11.165 12068 12068 W xample.wordsap: Accessing hidden method Landroid/os/MessageQueue;->next()Landroid/os/Message; (greylist, reflection, allowed)
+09-02 18:45:11.165 12068 12068 W xample.wordsap: Accessing hidden field Landroid/os/MessageQueue;->mMessages:Landroid/os/Message; (greylist, reflection, allowed)
+09-02 18:45:11.165 12068 12068 W xample.wordsap: Accessing hidden method Landroid/os/Message;->recycleUnchecked()V (greylist, reflection, allowed)
+09-02 18:45:11.176 12068 12068 W xample.wordsap: Accessing hidden method Landroid/view/WindowManagerGlobal;->getInstance()Landroid/view/WindowManagerGlobal; (greylist, reflection, allowed)
+09-02 18:45:11.177 12068 12068 W xample.wordsap: Accessing hidden field Landroid/view/WindowManagerGlobal;->mViews:Ljava/util/ArrayList; (greylist, reflection, allowed)
+09-02 18:45:11.177 12068 12068 W xample.wordsap: Accessing hidden field Landroid/view/WindowManagerGlobal;->mParams:Ljava/util/ArrayList; (greylist, reflection, allowed)
+09-02 18:45:11.195 12068 12068 I ViewInteraction: Performing 'actionOnItemAtPosition performing ViewAction: single click on item at position: 2' action on view with id: com.example.wordsapp:id/recycler_view
+09-02 18:45:11.296   535  3237 I system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+09-02 18:45:11.304   535  3237 I chatty  : uid=1000(system) Binder:535_15 identical 1 line
+09-02 18:45:11.448   535  3237 I system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+09-02 18:45:11.564 12068 12091 I TestRunner: finished: navigate_to_word_nav_component(com.example.wordsapp.NavigationTests)
